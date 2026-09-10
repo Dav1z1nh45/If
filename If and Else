@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOlja/2m48m2F2Si/CsoUUN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Dav1z1nh45/If/blob/main/If%20and%20Else\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "senha_correta = \"senai2026\"\n",
+        "senha_digitada = input(\"Digite a senha: \")\n",
+        "\n",
+        "if senha_digitada == senha_correta:\n",
+        "    print(\"Acesso permitido\")\n",
+        "else:\n",
+        "    print(\"Senha incorreta\")"
+      ],
+      "metadata": {
+        "id": "6nOGtjGBVGw8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ca3679dd-b0e4-464d-ac52-63b7efd3529e"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a senha: senai20245\n",
+            "Senha incorreta\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "lyBdlOr1tfAT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
